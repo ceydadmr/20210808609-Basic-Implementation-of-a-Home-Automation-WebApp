@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Air Condition - Home Automation</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+		.container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+		h1 {
+			font-size: 3rem;
+			margin-bottom: 1rem;
+		}
+		.temp-container {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 80%;
+			margin-top: 3rem;
+			margin-bottom: 3rem;
+		}
+		.temp-box {
+			background-color: #fff;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			border-radius: 1rem;
+			padding: 2rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 40%;
+			min-width: 250px;
+		}
+		.temp-box h2 {
+			font-size: 2rem;
+			font-weight: bold;
+			margin-bottom: 1rem;
+			color: #FF6700;
+		}
+		.temp-box p {
+			font-size: 3rem;
+			margin: 0;
+			font-weight: bold;
+			color: #000;
+		}
+		.humidity-box {
+			background-color: #fff;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			border-radius: 1rem;
+			padding: 2rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 80%;
+			min-width: 250px;
+			margin-bottom: 3rem;
+		}
+		.humidity-box h2 {
+			font-size: 2rem;
+			font-weight: bold;
+			margin-bottom: 1rem;
+			color: #FF6700;
+		}
+		.humidity-box p {
+			font-size: 3rem;
+			margin: 0;
+			font-weight: bold;
+			color: #000;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Air Condition</h1>
+		<div class="temp-container">
+			<div class="temp-box">
+				<h2>Ambient Temperature</h2>
+				<p>25°C</p>
+			</div>
+			<div class="temp-box">
+				<h2>Adjusted Temperature</h2>
+				<p>27°C</p>
+			</div>
+		</div>
+		<div class="humidity-box">
+			<h2>Humidity</h2>
+			<p>50%</p>
+		</div>
+	</div>
+</body>
+</html>
