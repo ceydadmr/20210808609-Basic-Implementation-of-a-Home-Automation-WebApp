@@ -41,6 +41,8 @@
 <body>
 	<h1>Welcome!</h1>
 	<p>You have successfully logged in.</p>
-	<a href="home.html">HOME</a>
+	<a href="home.html">MAIN MENU</a>
+
+
 </body>
 </html>
